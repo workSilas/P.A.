@@ -1,0 +1,42 @@
+.Nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #FEF1AE;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+  cursor: default;
+
+  .separacaoDeComponentes {
+
+    img {
+      width: 200px;
+    }
+
+    h1 {
+      max-width: 30vw;
+    }
+
+    input {
+      border: none;
+      outline: none;
+      box-shadow: none;
+      background-color: #FEF1AE;
+      font-size: 1rem;
+      padding: 0.5vh 1vw;
+      border: solid 1px #949494;
+      border-radius: 15px;
+      padding: 1rem 2vw;
+    }
+
+    input:focus {
+      transition: all 0.5s;
+      border: solid 1px #fff;
+      background-color: #fff;
+      color: #000;
+    }
+  }
+}
